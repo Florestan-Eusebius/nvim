@@ -114,6 +114,11 @@ _G.packer_plugins = {
     path = "/Users/wangyifei/.local/share/nvim/site/pack/packer/start/edge",
     url = "https://github.com/sainnhe/edge"
   },
+  everforest = {
+    loaded = true,
+    path = "/Users/wangyifei/.local/share/nvim/site/pack/packer/start/everforest",
+    url = "https://github.com/sainnhe/everforest"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/wangyifei/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -143,6 +148,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/wangyifei/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  ["newpaper.nvim"] = {
+    loaded = true,
+    path = "/Users/wangyifei/.local/share/nvim/site/pack/packer/start/newpaper.nvim",
+    url = "https://github.com/yorik1984/newpaper.nvim"
   },
   ["nvim-autopairs"] = {
     loaded = true,
@@ -194,6 +204,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/wangyifei/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["themery.nvim"] = {
+    loaded = true,
+    path = "/Users/wangyifei/.local/share/nvim/site/pack/packer/start/themery.nvim",
+    url = "https://github.com/zaldih/themery.nvim"
   },
   ["tokyonight.nvim"] = {
     loaded = true,
