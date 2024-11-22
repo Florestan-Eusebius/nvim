@@ -72,6 +72,8 @@ return require('packer').startup(function(use)
 
   use 'iamcco/markdown-preview.nvim'
 
+  use 'github/copilot.vim'
+
   if packer_bootstrap then
     require('packer').sync()
   end

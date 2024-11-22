@@ -16,6 +16,10 @@ local in_mathzone = function()
   return vim.fn['vimtex#syntax#in_mathzone']() == 1
 end
 
+local in_text = function()
+  return not in_mathzone
+end
+
 return {
 -- autosnippets generally begins with ';',
   -- since you never insert anything other than a space after ';' in any other situations.
@@ -188,6 +192,36 @@ s({trig=";il", dscr="inline equation", snippetType="autosnippet", wordTrig=false
   fmta(
      [[
       $<>$
+     ]],
+     { i(1) }
+  )
+),
+s({trig="\\definition", dscr="definition env"},
+  fmta(
+     [[
+       \begin{definition}
+           <>
+       \end{definition}
+     ]],
+     { i(1) }
+  )
+),
+s({trig="\\lemma", dscr="lemma env"},
+  fmta(
+     [[
+       \begin{lemma}
+           <>
+       \end{lemma}
+     ]],
+     { i(1) }
+  )
+),
+s({trig="\\itemize", dscr="itemize env"},
+  fmta(
+     [[
+       \begin{itemize}
+           <>
+       \end{itemize}
      ]],
      { i(1) }
   )
