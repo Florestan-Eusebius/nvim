@@ -120,6 +120,12 @@ s({trig=";mbb", dscr="mathbb", snippetType="autosnippet", wordTrig=false},
       { i(1) }
     )
 ),
+s({trig=";mbf", dscr="mathbf", snippetType="autosnippet", wordTrig=false},
+  fmta(
+      "\\mathbf{<>}",
+      { i(1) }
+    )
+),
 s({trig=";mcl", dscr="mathcal", snippetType="autosnippet", wordTrig=false},
   fmta(
       "\\mathcal{<>}",
