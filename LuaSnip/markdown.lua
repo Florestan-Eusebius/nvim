@@ -61,6 +61,12 @@ s({trig=";LB", dscr="brackets {}", snippetType="autosnippet", wordTrig=false},
       { i(1) }
     )
 ),
+s({trig=";abs", dscr="absolute value", snippetType="autosnippet", wordTrig=false},
+  fmta(
+      "\\left|<>\\right|",
+      { i(1) }
+    )
+),
 s({trig="^", dscr="superscript", snippetType="autosnippet", wordTrig=false}, -- in math envs, I always want a {} after ^
   fmta(
       "^{<>}",
@@ -83,6 +89,9 @@ s({trig=";ii", dscr="imaginary unit", snippetType="autosnippet", wordTrig=false}
 ),
 s({trig=";ee", dscr="constant e", snippetType="autosnippet", wordTrig=false},
   {t("\\mathrm{e}"),}
+),
+s({trig=";dd", dscr="differential", snippetType="autosnippet", wordTrig=false},
+  {t("\\mathrm{d}"),}
 ),
 s({trig=";rar", dscr="rightarrow", snippetType="autosnippet", wordTrig=false},
   {t("\\rightarrow"),}
@@ -109,6 +118,12 @@ s({trig=";mbb", dscr="mathbb", snippetType="autosnippet", wordTrig=false},
       { i(1) }
     )
 ),
+s({trig=";mbf", dscr="mathbf", snippetType="autosnippet", wordTrig=false},
+  fmta(
+      "\\mathbf{<>}",
+      { i(1) }
+    )
+),
 s({trig=";mcl", dscr="mathcal", snippetType="autosnippet", wordTrig=false},
   fmta(
       "\\mathcal{<>}",
@@ -123,37 +138,37 @@ s({trig=";txt", dscr="text", snippetType="autosnippet", wordTrig=false},
 ),
 -- 1.3 specific fields
 -- 1.3.1 quantum mechanics
-s({trig="\\k", dscr="ket", wordTrig=false},
+s({trig=";k", dscr="ket", snippetType="autosnippet", wordTrig=false},
   fmta(
       "\\ket{<>}",
       { i(1) }
     )
 ),
-s({trig="\\b", dscr="bra", wordTrig=false},
+s({trig=";br", dscr="bra", snippetType="autosnippet", wordTrig=false},
   fmta(
       "\\bra{<>}",
       { i(1) }
     )
 ),
-s({trig="\\bk", dscr="braket", wordTrig=false},
+s({trig=";bk", dscr="braket", snippetType="autosnippet", wordTrig=false},
   fmta(
       "\\braket{<>}",
       { i(1) }
     )
 ),
-s({trig="\\K", dscr="Ket", wordTrig=false},
+s({trig=";K", dscr="Ket", snippetType="autosnippet", wordTrig=false},
   fmta(
       "\\Ket{<>}",
       { i(1) }
     )
 ),
-s({trig="\\B", dscr="Bra", wordTrig=false},
+s({trig=";Br", dscr="Bra", snippetType="autosnippet", wordTrig=false},
   fmta(
       "\\Bra{<>}",
       { i(1) }
     )
 ),
-s({trig="\\BK", dscr="Braket", wordTrig=false},
+s({trig=";BK", dscr="Braket", snippetType="autosnippet", wordTrig=false},
   fmta(
       "\\Braket{<>}",
       { i(1) }
@@ -177,9 +192,9 @@ s({trig=";begin", dscr="LaTeX environment", snippetType="autosnippet", wordTrig=
 s({trig=";eq", dscr="A LaTeX equation environment", snippetType="autosnippet", wordTrig=false},
   fmta(
      [[
-       \begin{equation}
+       $$
            <>
-       \end{equation}
+       $$
      ]],
      { i(1) }
   )

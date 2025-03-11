@@ -95,6 +95,9 @@ s({trig=";ii", dscr="imaginary unit", snippetType="autosnippet", wordTrig=false}
 s({trig=";ee", dscr="constant e", snippetType="autosnippet", wordTrig=false},
   {t("\\mathrm{e}"),}
 ),
+s({trig=";dd", dscr="differential", snippetType="autosnippet", wordTrig=false},
+  {t("\\mathrm{d}"),}
+),
 s({trig=";rar", dscr="rightarrow", snippetType="autosnippet", wordTrig=false},
   {t("\\rightarrow"),}
 ),
