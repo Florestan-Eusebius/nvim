@@ -34,6 +34,6 @@ opt.smartcase = true
 opt.termguicolors = true
 opt.signcolumn = "yes"
 -- vim.cmd[[colorscheme catppuccin]]
-vim.cmd[[colorscheme edge]]
+vim.cmd[[colorscheme solarized]]
 -- vim.cmd[[colorscheme tokyonight]]
 --

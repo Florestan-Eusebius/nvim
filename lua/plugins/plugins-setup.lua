@@ -28,6 +28,7 @@ return require('packer').startup(function(use)
   use 'sainnhe/everforest'
   use 'folke/tokyonight.nvim' -- 主题
   use 'sainnhe/edge'
+  use 'maxmx03/solarized.nvim'
   use { "catppuccin/nvim", as = "catppuccin" }
   use 'zaldih/themery.nvim'
   use {
