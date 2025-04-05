@@ -71,6 +71,8 @@ return require('packer').startup(function(use)
 
   use 'lervag/vimtex' -- LaTeX
 
+  use 'chomosuke/typst-preview.nvim' -- typst预览
+
   use 'iamcco/markdown-preview.nvim'
 
   use 'github/copilot.vim'

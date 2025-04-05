@@ -1,4 +1,4 @@
--- tex snippets for LuaSnip
+-- markdown snippets for LuaSnip
 local ls = require("luasnip")
 local s = ls.snippet
 local sn = ls.snippet_node

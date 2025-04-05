@@ -225,6 +225,11 @@ _G.packer_plugins = {
     path = "/Users/wangyifei/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
   },
+  ["typst-preview.nvim"] = {
+    loaded = true,
+    path = "/Users/wangyifei/.local/share/nvim/site/pack/packer/start/typst-preview.nvim",
+    url = "https://github.com/chomosuke/typst-preview.nvim"
+  },
   ["vim-tmux-navigator"] = {
     loaded = true,
     path = "/Users/wangyifei/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
