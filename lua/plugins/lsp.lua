@@ -23,9 +23,10 @@ require("lspconfig").lua_ls.setup {
 }
 
 require("lspconfig")["tinymist"].setup {
+    offset_encoding = "utf-8",
     settings = {
         formatterMode = "typstyle",
-        exportPdf = "onType",
-        semanticTokens = "disable"
+        exportPdf = "onSave",
+        semanticTokens = "disable",
     }
 }
